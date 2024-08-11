@@ -1,0 +1,42 @@
+.ny-videos__container {
+    background-color: beige;
+    padding: 20px;
+  }
+  
+  .ny-videos__container .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .video-card {
+    flex: 1 1 calc(33.333% - 16px); /* 3 columns with space in between */
+    box-sizing: border-box;
+    margin-bottom: 16px;
+  }
+  
+  .video-card iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+  
+  @media (max-width: 992px) {
+    .video-card {
+      flex: 1 1 calc(50% - 16px); /* 2 columns with space in between */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .video-card {
+      flex: 1 1 100%; /* 1 column with space in between */
+    }
+  }
+  
+  

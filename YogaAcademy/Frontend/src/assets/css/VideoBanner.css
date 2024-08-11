@@ -1,0 +1,54 @@
+.ny-videos__banner {
+    position: relative;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust size to cover container */
+    background-color: burlywood;
+    min-height: 400px; /* Ensure there's enough height for the banner */
+}
+
+.ny-videos__banner__text {
+    display: flex;
+    flex-direction: column; /* Ensure content stacks vertically */
+    justify-content: center; /* Align items to the end of the container */
+    align-items: center; /* Align items to the end of the container */
+
+    height: 100%; /* Full height of parent */
+    text-align: right; /* Align text to the right */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in width/height */
+}
+
+.ny-videos__banner__text p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 0;
+}
+.py-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .ny-videos__banner__text {
+        padding-top: 60px; /* Adjust padding for smaller screens */
+        justify-content: center;
+        align-items: center; /* Center align items */
+        text-align: center;
+    }
+
+    .ny-videos__banner__text p {
+        max-width: 90%;
+    }
+}
+
+@media(max-width: 468px) {
+    .ny-videos__banner__text p {
+        margin-bottom: 40px;
+        padding: 15px; /* Reduce padding */
+    }
+}

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align:left;
+    padding-left: 45px;
+    padding-top: 10px;
+    color: blanchedalmond;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.login-container img {
+    width: 300px;
+    height: 330px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.Login {
+    width: 300px;
+    padding: 30px 25px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.Login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Login label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Login input[type='text'],
+.Login input[type='password'] {
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Login button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Login button:hover {
+    background-color: #45a049;
+}
+
+.Login p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Login p span {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.for-group {
+    margin-bottom: 20px;
+}
